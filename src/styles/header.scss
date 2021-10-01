@@ -1,0 +1,15 @@
+@import "colors";
+
+.main-title {
+  text-decoration: underline;
+}
+
+h1 {
+  color: $brand;
+  text-align: center;
+  transition: color 800ms ease-out 300ms;
+
+  &:hover {
+    color: $blue;
+  }
+}

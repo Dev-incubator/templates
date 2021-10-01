@@ -1,0 +1,51 @@
+@import "colors";
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  margin: 2rem;
+  border: 4px solid goldenrod;
+  box-shadow: 4px 4px 20px 4px rgba(212, 175, 55, 0.8);
+  list-style-type: none;
+
+  &__item {
+    cursor: pointer;
+    padding: 1.5rem;
+    margin: 0.75rem;
+    flex: 1 1 20rem;
+    border: 3px solid $black;
+    color: $green;
+    background: linear-gradient(45deg, rgb(39, 152, 184), rgba(106, 59, 133, 0.51), rgba(70, 101, 199, 0.38));
+    text-align: center;
+
+    &:hover {
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    }
+  }
+
+  &__link {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate(-1px, 0);
+  }
+
+  20%, 80% {
+    transform: translate(1px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate(-1px, 0);
+  }
+
+  40%, 60% {
+    transform: translate(1px, 0);
+  }
+}
