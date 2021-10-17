@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack s --mode development --open",
-    "build": "cross-env NODE_ENV=production webpack --mode production"
+    "start": "../css to scss/node_modules/.bin/webpack s --mode development --open",
+    "build": "../css to scss/node_modules/.bin/cross-env NODE_ENV=production webpack --mode production"
   },
   "keywords": ["template", "webpack", "scss"],
   "author": "Maxim Shchutsky <maximuzz@yandex.ru> (https://maximsan.com/)",
