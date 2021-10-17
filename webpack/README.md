@@ -1,1 +1,1 @@
-# Dev incubator css to scss with webpack template :rocket:
+# Dev incubator css to scss template :rocket:
